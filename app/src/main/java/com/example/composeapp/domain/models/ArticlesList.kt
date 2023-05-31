@@ -7,6 +7,6 @@ import kotlinx.collections.immutable.PersistentList
 data class ArticlesList(
     val count: Int,
     val next: String,
-    val previous: Any,
+    val previous: String,
     val results: PersistentList<Article>
 )
